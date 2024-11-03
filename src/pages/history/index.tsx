@@ -10,7 +10,7 @@ initSentry();
 
 const queryClient = new QueryClient();
 
-const init = () => {
+(() => {
   const rootContainer = document.querySelector("#__root");
 
   if (!rootContainer) {
@@ -23,6 +23,4 @@ const init = () => {
       <History />
     </QueryClientProvider>
   );
-};
-
-init();
+})();
