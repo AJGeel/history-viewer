@@ -10,7 +10,7 @@ const manifest: Manifest.WebExtensionManifest = {
     "128": "icon-128.png",
   },
   manifest_version: 3,
-  name: "UpTab",
+  name: "History Viewer",
   permissions: ["storage", "history"],
   version: pkg.version,
   web_accessible_resources: [

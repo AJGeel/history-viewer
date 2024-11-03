@@ -1,5 +1,4 @@
 <div align="center">
-<img src="public/icon-128.png" alt="logo"/>
 <h1>A better history viewer for Firefox</h1>
 </div>
 
